@@ -66,7 +66,7 @@ class SpawnPoint(object):
                                     attendee_id=current_id_num,
                                     current_location=self.location,
                                     time_entered=current_time_step,
-                                    has_bag=rand.randint(0, 1),
+                                    has_bag=rand.randint(0, 2),
                                     )
                 print("attendee_id =", current_id_num)                    
                 spawned_attendies.append(enter_ye)
